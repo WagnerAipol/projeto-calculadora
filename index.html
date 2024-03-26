@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal">
+        <div class="contem_calculadora">
+            <h3>Calculadora digital</h3>
+            <div class="contem_visor">
+                <input class="visor" type="text">
+            </div>
+            <div class="contem_botoes">
+                <div class="contem_botoes_linha_1">
+                    <button id="sete" onclick="addNumSete()" class="botao">7</button>
+                    <button id="oito" onclick="addNumOito()" class="botao">8</button>
+                    <button id="nove" onclick="addNumNove()" class="botao">9</button>
+                    <button id="dividir" onclick="dividir()" class="botao">/</button>
+                </div>
+                <div class="contem_botoes_linha_2">
+                    <button id="quatro" onclick="addNumQuatro()" class="botao">4</button>
+                    <button id="cinco" onclick="addNumCinco()" class="botao">5</button>
+                    <button id="seis" onclick="addNumSeis()" class="botao">6</button>
+                    <button id="multiplicar" onclick="multiplicar()" class="botao">*</button>
+                </div>
+                <div class="contem_botoes_linha_3">
+                    <button id="um" onclick="addNumUm()" class="botao">1</button>
+                    <button id="dois" onclick="addNumDois()" class="botao">2</button>
+                    <button id="tres" onclick="addNumTres()" class="botao">3</button>
+                    <button id="subtrair" onclick="subtrair()" class="botao">-</button>
+                </div>
+                <div class="contem_botoes_linha_4">
+                    <button id="resetar" onclick="resetar()" class="botao">c</button>
+                    <button id="ponto" onclick="addPonto()" class="botao">.</button>
+                    <button id="zero" onclick="addNumZero()" class="botao">0</button>
+                    <button id="somar" onclick="somar()" class="botao">+</button>
+                </div>
+                <div class="contem_botoes_linha_5">
+                    <button id="voltar" onclick="voltar()" class="botao">v</button>
+                    <button id="atribuir" onclick="atribuir()" class="botao">=</button>
+                    <button class="botao">n</button>
+                    <button class="botao">k</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
